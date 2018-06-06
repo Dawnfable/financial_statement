@@ -1,24 +1,35 @@
-# README
+# CRUD
+- [ ] Financial statement
+      • Month/Year
+      • Status
+- [ ] Income
+      • Title
+      • Amount
+- [ ] Expences
+      • Title
+      • Amount
+- [ ] Assets
+      • Title
+      • Amount/Worth
+- [ ] Liabilities
+      • Title
+      • Total
+      • Amount Paid
+      • Minimum?
+- [ ] Users
+      • First name
+      • Last name
+      • Email
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Functionality
+- [ ] Users
+      • All users page?
+- [ ] PDF/Report
+- [ ] everything connected to Financial statements
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Gems
+- [X] Devise
+- [ ] Petergate
+- [ ] Bootstrap 4
+- [ ] FriendlyIDs
+- [ ] Gritter
