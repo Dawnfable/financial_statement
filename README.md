@@ -30,6 +30,6 @@
 # Gems
 - [X] Devise
 - [X] Petergate
-- [ ] Bootstrap 4
+- [X] Bootstrap 4
 - [ ] FriendlyIDs
 - [ ] Gritter
