@@ -32,4 +32,12 @@
 - [X] Petergate
 - [X] Bootstrap 4
 - [ ] FriendlyIDs
-- [ ] Gritter
+- [X] Gritter
+
+
+# Needs to go in the model
+  extend FriendlyId
+  friendly_id :name, use: :slugged
+
+# Needs to go in the controller in the show
+  @user = User.friendly.find(params[:id])
