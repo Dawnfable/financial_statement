@@ -1,0 +1,13 @@
+<%= form_for @statement do |f| %>
+
+<% if @statement.errors.any? %>
+  <% @statement.errors.full_messages.each do |error| %>
+    <%= alert_generator error %>
+  <% end %>
+<% end %>
+
+<%= f.date_field :date %>
+
+<%= f.submit %>
+
+<% end %>
