@@ -1,0 +1,12 @@
+<h1>Financial Statements</h1>
+
+<%= link_to 'Create New Statement', new_statement_path %> <br>
+
+<% @statements.each do |i| %>
+  <%= i.date.strftime('%B %Y') %>
+  <%= link_to "Show", statement_path(i), class: 'nil' %>
+  <%= link_to 'Edit', edit_statement_path(i) %>
+  <%= link_to 'Delete', i, method: :delete, data: { confirm: 'Are you sure?'} %>
+  <%= statement_toggler(i) %>
+  <br>
+<% end %>

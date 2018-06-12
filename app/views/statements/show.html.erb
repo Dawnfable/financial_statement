@@ -1,0 +1,7 @@
+<h1><%= @statement.date.strftime('%B %Y') %></h1>
+<%= @statement.inspect %> <br>
+
+<%= link_to 'Edit', edit_statement_path %>
+<%= link_to "Delete", @statement, method: :delete, data:  {confirm: "Are you sure?"} %>
+
+<%= statement_toggler(@statement) %>
