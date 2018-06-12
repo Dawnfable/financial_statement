@@ -2,7 +2,7 @@ class StatementsController < ApplicationController
   before_action :set_statement, only: [:show, :edit, :update, :destroy, :toggle_status]
 
   def index
-    @statements = Statement.all
+    @statements = Statement.where(user_id: current_user.id)
 
   end
 
@@ -12,6 +12,7 @@ class StatementsController < ApplicationController
 
   def create
     @statement = Statement.new(statement_params)
+    @statement.user_id = current_user.id
     if @statement.save
       redirect_to statement_path(@statement)
     else
