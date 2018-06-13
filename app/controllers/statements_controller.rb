@@ -21,7 +21,7 @@ class StatementsController < ApplicationController
   end
 
   def show
-    
+
   end
 
   def edit
@@ -57,7 +57,7 @@ class StatementsController < ApplicationController
   private
 
   def set_statement
-    @statement = Statement.find(params[:id])
+    @statement = Statement.friendly.find(params[:id])
   end
 
   def statement_params

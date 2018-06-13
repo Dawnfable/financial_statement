@@ -1,5 +1,5 @@
 # CRUD
-- [ ] Financial statement
+- [X] Financial statement
       • Month/Year
       • Status
 - [ ] Income
@@ -34,6 +34,11 @@
 - [ ] FriendlyIDs
 - [X] Gritter
 
+# TODO
+- [X] Add name to user
+- [X] Fix frienly_id
+- [ ] Navbar
+      • [ ] Admin options
 
 # Needs to go in the model
   extend FriendlyId
