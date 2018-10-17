@@ -31,7 +31,7 @@
 - [X] Devise
 - [X] Petergate
 - [X] Bootstrap 4
-- [ ] FriendlyIDs
+- [X] FriendlyIDs
 - [X] Gritter
 
 # TODO
